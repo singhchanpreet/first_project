@@ -1,33 +1,38 @@
-body{
-	background-color: #fff;
-}
-
-
-header
-{
-	background-color: #ccc;
-	overflow: hidden;
-
-}
-
 .logo{
-float: left;
-}
-
-nav{
 	float:left;
+}
+nav ul li{
+display:inline-block;
+float:left;
+
+margin: 20px 20px 20px 20px;
+}
+nav ul li:nth-of-type(3){
+	float:right;
 
 }
+header{
+	background-color:black;
+	overflow:hidden;
+	color:white;
 
-nav ul li{
-	display: inline-block;   
-	margin: 10px 10px 10px 10px;         /**we made li -> inline so dat it will be converted into horizontal form**/
-	font-size:20px;
 }
 
 footer{
+	clear:both;
+}
+nav ul li a{
+	color:white;   /** to target anchor tag specifically becoz they have their own css so to nullify that we have to target them specificaly**/
+	text-decoration: none;
+	background-color: red;
 
 }
 
+body{
+	margin:0;
+	padding:0;
+}
 
-
+nav ul li a:hover{
+	background-color: orange;
+}
