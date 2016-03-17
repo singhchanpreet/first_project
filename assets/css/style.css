@@ -1,0 +1,33 @@
+body{
+	background-color: #fff;
+}
+
+
+header
+{
+	background-color: #ccc;
+	overflow: hidden;
+
+}
+
+.logo{
+float: left;
+}
+
+nav{
+	float:left;
+
+}
+
+nav ul li{
+	display: inline-block;   
+	margin: 10px 10px 10px 10px;         /**we made li -> inline so dat it will be converted into horizontal form**/
+	font-size:20px;
+}
+
+footer{
+
+}
+
+
+
